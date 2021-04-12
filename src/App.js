@@ -1,7 +1,9 @@
-import AboutMe from './AboutMe';
+import About from './components/About/About';
+import Intro from './components/Intro/Intro';
+import Navbar from './components/Navbar/Navbar';
+import Title from './components/Title/Title';
 import './App.css';
-import './AppMobile.css';
-import Navbar from './Navbar/Navbar';
+// import './AppMobile.css';
 
 function App() {
   return (
@@ -9,16 +11,11 @@ function App() {
 
       <Navbar />
 
-      <div className="title-container">
-        <h1>Sheuh Xiong</h1>
-      </div>
+      <Title />
       
-      <div className="intro">
-        <p>I'm a front-end developer who builds stuff with HTML, CSS, React JS, and Firebase.</p>
-        <p>Check out my favourite side-projects below!</p>
-      </div>
+      <Intro />
       
-      <AboutMe />
+      <About />
       
       <div className="section-header projects-header-container">
         <h2>Projects</h2>
