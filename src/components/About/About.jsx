@@ -16,11 +16,11 @@ function About() {
       <br/>
       <br/>
 
-      <code>{`const Canadian = ({ name }) => {`}</code>
+      <code>{`const Nationality = ({ name, nationality }) => {`}</code>
       <br/>
       <code className={indOnce}>{`return {`}</code>
       <br/>
-      <code className={indTwice}>{`nationality: () => console.log(name + " is a proud Canadian!")`}</code>
+      <code className={indTwice}>{`nationality: () => console.log(name + " is a proud " + nationality + ".")`}</code>
       <br/>
       <code className={indOnce}>{`};`}</code>
       <br/>
@@ -55,11 +55,13 @@ function About() {
       <br/>
       <br/>
       
-      <code>{`function createPerson(name, school, degree) {`}</code>
+      <code>{`function createPerson(name, nationality, school, degree) {`}</code>
       <br/>
       <code className={indOnce}>{`const person = {`}</code>
       <br/>
       <code className={indTwice}>{`name: name,`}</code>
+      <br/>
+      <code className={indTwice}>{`nationality: nationality,`}</code>
       <br/>
       <code className={indTwice}>{`school: school,`}</code>
       <br/>
@@ -72,7 +74,7 @@ function About() {
       <br/>
       <code className={indTwice}>{`...person,`}</code>
       <br/>
-      <code className={indTwice}>{`...Canadian(person),`}</code>
+      <code className={indTwice}>{`...Nationality(person),`}</code>
       <br/>
       <code className={indTwice}>{`...Hiker(person),`}</code>
       <br/>
@@ -85,7 +87,7 @@ function About() {
       <br/>
       <br/>
       
-      <code>{`const sheuh = createPerson("Sheuh", "University of Waterloo", "Bachelor of Science - Kinesiology");`}</code>
+      <code>{`const sheuh = createPerson("Sheuh", "Canadian", "University of Waterloo", "Bachelor of Science");`}</code>
       <br/>
       <br/>
       <code>{`sheuh.nationality();`} <span style={{color: blue}}>{`// Sheuh is a proud Canadian!`}</span></code>
