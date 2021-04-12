@@ -96,16 +96,16 @@ body {
 }
 
 .card-0 {
-  background-image: url("./images/card-0.2-bg.png");
+  background-image: url("./images/card-0-bg.png");
 }
 
 .card-1 {
-  background-image: url("./images/background.jpg");
+  background-image: url("./images/card-1.jpg");
   background-position: bottom;
 }
 
 .card-2 {
-  background-image: url("./images/card-2.2-bg.png");
+  background-image: url("./images/card-2-bg.png");
   background-position: top;
 }
 
