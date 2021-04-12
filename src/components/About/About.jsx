@@ -16,7 +16,7 @@ function About() {
       <br/>
       <br/>
       
-      <code>{`function`} <span style={{color: functionColor}}>createPerson</span> {`(name, country, school, degree) {`}</code>
+      <code>{`function`} <span style={{color: functionColor}}>createPerson</span>{`(name, country, school, degree) {`}</code>
       <br/>
       <code className={indOnce}>{`const person = {`}</code>
       <br/>
