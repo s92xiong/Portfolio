@@ -3,22 +3,24 @@ import "./About.css";
 
 function About() {
 
+  const blue = "#90ee90";
+
   const indOnce = "indent-once";
   const indTwice = "indent-twice";
 
   return (
     <div className="about">
       
-      <code>{`// ABOUT ME:`}</code>
+      <code style={{color: blue}}>{`// ABOUT ME:`}</code>
       
       <br/>
       <br/>
 
-      <code>{`const Hiker = ({ name }) => {`}</code>
+      <code>{`const Canadian = ({ name }) => {`}</code>
       <br/>
       <code className={indOnce}>{`return {`}</code>
       <br/>
-      <code className={indTwice}>{`hike: () => console.log(name + " likes to hike.")`}</code>
+      <code className={indTwice}>{`nationality: () => console.log(name + " is a proud Canadian!")`}</code>
       <br/>
       <code className={indOnce}>{`};`}</code>
       <br/>
@@ -27,11 +29,11 @@ function About() {
       <br/>
       <br/>
 
-      <code>{`const Reader = ({ name }) => {`}</code>
+      <code>{`const Hiker = ({ name }) => {`}</code>
       <br/>
       <code className={indOnce}>{`return {`}</code>
       <br/>
-      <code className={indTwice}>{`read: () => console.log(name + " likes to read.")`}</code>
+      <code className={indTwice}>{`hike: () => console.log(name + " likes to hike.")`}</code>
       <br/>
       <code className={indOnce}>{`};`}</code>
       <br/>
@@ -70,7 +72,7 @@ function About() {
       <br/>
       <code className={indTwice}>{`...person,`}</code>
       <br/>
-      <code className={indTwice}>{`...Reader(person),`}</code>
+      <code className={indTwice}>{`...Canadian(person),`}</code>
       <br/>
       <code className={indTwice}>{`...Hiker(person),`}</code>
       <br/>
@@ -79,10 +81,18 @@ function About() {
       <code className={indOnce}>{`};`}</code>
       <br/>
       <code>{`};`}</code>
-      <br/>
-      <br/>
-      <code>{`const sheuhXiong = createPerson("Sheuh Xiong", "University of Waterloo", "Bachelor of Science");`}</code>
 
+      <br/>
+      <br/>
+      
+      <code>{`const sheuh = createPerson("Sheuh", "University of Waterloo", "Bachelor of Science - Kinesiology");`}</code>
+      <br/>
+      <br/>
+      <code>{`sheuh.nationality();`} <span style={{color: blue}}>{`// Sheuh is a proud Canadian!`}</span></code>
+      <br/>
+      <code>{`sheuh.hike();`} <span style={{color: blue}}>{`// Sheuh likes to hike.`}</span></code>
+      <br/>
+      <code>{`sheuh.playGo();`} <span style={{color: blue}}>{`// Sheuh likes to play the board game Go.`}</span></code>
 
     </div>
   );
