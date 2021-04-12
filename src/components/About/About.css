@@ -14,3 +14,11 @@
 .indent-twice {
   margin-left: 2rem;
 }
+
+@media only screen and (max-width: 500px) {
+  .about {
+    margin: 0 auto;
+    padding: 20px;
+    overflow-x: auto;
+  }
+}

@@ -3,7 +3,6 @@ import Intro from './components/Intro/Intro';
 import Navbar from './components/Navbar/Navbar';
 import Title from './components/Title/Title';
 import './App.css';
-// import './AppMobile.css';
 
 function App() {
   return (
