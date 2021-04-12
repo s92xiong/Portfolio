@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f6f9fc;
   font-family: 'Nunito Sans', sans-serif;
@@ -27,7 +31,7 @@ body {
 }
 
 .title-container h1 {
-  margin: 20px 0;
+  margin: 0 0 20px 0;
   font-size: 5rem;
   font-weight: 600;
   color: #747fe0;
@@ -37,7 +41,7 @@ body {
 
 .intro {
   color: #5a5d7a;
-  margin: 0 0 50px 0;
+  margin: 0 0 40px 0;
 }
 
 .intro p {
@@ -49,8 +53,10 @@ body {
 /* --- Projects Header Container --- */
 
 .projects-header-container {
-  margin: 70px 0 70px 0;
+  margin: 50px 0 50px 0;
+  padding: 20px 0 20px 0;
   text-align: center;
+  border-bottom: 1px solid rgb(224, 224, 224);
 }
 
 .projects-header-container h2 {

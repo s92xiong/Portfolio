@@ -15,9 +15,15 @@
   justify-content: space-between;
 }
 
-.navbar-container-items h3 {
+.navbar-container-items h3 a {
   color: #5a5d7a;
   font-weight: 400;
+  text-decoration: none;
+  transition: 250ms;
+}
+
+.navbar-container-items h3 a:hover {
+  color: #747fe0;
 }
 
 @media only screen and (max-width: 500px) {

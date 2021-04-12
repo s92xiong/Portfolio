@@ -16,7 +16,7 @@ function App() {
       
       <About />
       
-      <div className="section-header projects-header-container">
+      <div id="projects" className="section-header projects-header-container">
         <h2>Projects</h2>
       </div>
       
