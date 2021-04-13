@@ -27,6 +27,7 @@
 
 .card:hover {
   transform: scale(1);
+  opacity: 0.9;
 }
 
 .card-0-bg {
