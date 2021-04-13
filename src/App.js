@@ -3,6 +3,7 @@ import Intro from './components/Intro/Intro';
 import Navbar from './components/Navbar/Navbar';
 import Title from './components/Title/Title';
 import './App.css';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -20,10 +21,10 @@ function App() {
         <h2>Projects</h2>
       </div>
       
-      <div className="projects-container">
-        <div className="card card-0"></div>
-        <div className="card card-1"></div>
-        <div className="card card-2"></div>
+      <Projects />
+
+      <div id="contact" className="section-header contact-header-container">
+        <h2>Contact</h2>
       </div>
 
     </div>

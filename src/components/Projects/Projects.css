@@ -1,0 +1,39 @@
+/* --- Project --- */
+
+.projects-container {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  width: 90%;
+  height: 380px;
+  margin: 0 auto;
+  background-size: cover;
+  border-radius: 5px;
+  transition: 300ms;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 5px 7px 12px 0px #9595a07e;
+}
+
+.card-0 {
+  background-image: url("../../images/card-0-bg.png");
+  background-position: center;
+  margin-bottom: 60px;
+}
+
+.card-1 {
+  background-image: url("../../images/card-1-bg.jpg");
+  background-position: bottom;
+  margin-bottom: 60px;
+}
+
+.card-2 {
+  background-image: url("../../images/card-2-bg.png");
+  background-position: center;
+}
+
+.card:hover {
+  filter: grayscale(75%);
+  opacity: 0.75;
+}

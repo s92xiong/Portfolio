@@ -6,7 +6,7 @@
   font-size: 1.1em;
   line-height: 1.25em;
   /* offset-x | offset-y | blur-radius | color */
-  box-shadow: 0px 5px 10px 3px #3838467e;
+  box-shadow: 5px 5px 10px 5px #3838467e;
 }
 
 .indent-once {
