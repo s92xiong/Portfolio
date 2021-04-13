@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Title from './components/Title/Title';
 import './App.css';
 import Projects from './components/Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
       <div id="contact" className="section-header contact-header-container">
         <h2>Contact</h2>
       </div>
+
+      <Contact />
 
     </div>
   );

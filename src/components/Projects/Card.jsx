@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
-function Card({ className, num, projectTitle, projectInfo }) {
+function Card({ className, num, projectTitle, projectInfo, href }) {
 
   return (
     <div className="card-overflow-container">
@@ -12,8 +12,12 @@ function Card({ className, num, projectTitle, projectInfo }) {
             <span>{projectInfo}</span>
           </div>
           <div className="card-button-container">
-            <button className="view-code-button">View Code <FaGithub className="fa-icon" /></button>
-            <button className="live-demo-button">Live Demo <FaExternalLinkAlt className="fa-icon" /></button>
+            <a href={href.viewCode} target="blank">
+              <button className="view-code-button">View Code <FaGithub className="fa-icon" /></button>
+            </a>
+            <a href={href.livePreview} target="blank">
+              <button className="live-demo-button">Live Demo <FaExternalLinkAlt className="fa-icon" /></button>
+            </a>
           </div>
         </div>
       </div>

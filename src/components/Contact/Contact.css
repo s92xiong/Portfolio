@@ -1,0 +1,28 @@
+.contact {
+  width: auto;
+  margin: 50px auto;
+  text-align: center;
+  color: #5a5d7a;
+}
+
+section {
+  margin: 25px;
+}
+
+.section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+
+.section p {
+  line-height: 1.8rem;
+}
+
+.section-2 {
+  color: #525f7f;
+  font-size: 0.75em;
+}
