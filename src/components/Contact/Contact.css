@@ -1,6 +1,5 @@
 .contact {
-  width: auto;
-  margin: 50px auto;
+  margin: 30px auto;
   text-align: center;
   color: #5a5d7a;
 }
@@ -10,6 +9,7 @@ section {
 }
 
 .section a {
+  width: min-content;
   color: #007bff;
   text-decoration: none;
 }
