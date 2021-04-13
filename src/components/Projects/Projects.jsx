@@ -26,7 +26,7 @@ function Projects() {
       description: "A task management web-application inspired by Microsoft To Do.",
       href: {
         viewCode: "https://github.com/s92xiong/tdl-react",
-        livePreview: "https://waldo-react-d81e7.firebaseapp.com/"
+        livePreview: "https://to-do-list-6d4f7.firebaseapp.com//"
       }
     },
   };
