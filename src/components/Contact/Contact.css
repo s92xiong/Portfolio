@@ -1,15 +1,11 @@
 .contact {
-  margin: 30px auto;
+  width: min-content;
+  margin: 0 auto;
   text-align: center;
   color: #5a5d7a;
 }
 
-section {
-  margin: 25px;
-}
-
 .section a {
-  width: min-content;
   color: #007bff;
   text-decoration: none;
 }
@@ -19,10 +15,19 @@ section {
 }
 
 .section p {
-  line-height: 1.8rem;
+  line-height: 2rem;
 }
 
-.section-2 {
+.or-separator {
+  margin: 20px;
+}
+
+.section-find-me-on {
+  margin: 0 0 20px 0;
+}
+
+.section-made-by-user {
   color: #525f7f;
   font-size: 0.75em;
+  margin-bottom: 50px;
 }
