@@ -15,8 +15,26 @@ function About() {
       <code style={{color: commentColor}}>{`// ABOUT ME:`}</code>
       <br/>
       <br/>
+
+      <code>{`const`} <span style={{color: functionColor}}>hiker</span> {`= ({ name }) => ({ `}</code>
+      <br/>
+      <code className={indOnce}>{`hike: () => console.log(name + " likes to hike.")`}</code>
+      <br/>
+      <code>{`});`}</code>
       
-      <code>{`function`} <span style={{color: functionColor}}>createPerson</span>{`(name, country, school, degree) {`}</code>
+      <br/>
+      <br/>
+
+      <code>{`const`} <span style={{color: functionColor}}>goPlayer</span> {`= ({ name }) => ({ `}</code>
+      <br/>
+      <code className={indOnce}>{`  playGo: () => console.log(name + " likes to play the board game Go.")`}</code>
+      <br/>
+      <code>{`});`}</code>
+      
+      <br/>
+      <br/>
+      
+      <code>{`function`} <span style={{color: functionColor}}>Person</span>{`(name, country, school, degree) {`}</code>
       <br/>
       <code className={indOnce}>{`const person = {`}</code>
       <br/>
@@ -33,16 +51,24 @@ function About() {
       <br/>
       <code className={indOnce}>{`return {`}</code>
       <br/>
-      <code className={indTwice}>{`...person`}</code>
+      <code className={indTwice}>{`...person,`}</code>
+      <br/>
+      <code className={indTwice}>{`...`}<span style={{color: functionColor}}>hiker</span>{`(person),`}</code>
+      <br/>
+      <code className={indTwice}>{`...`}<span style={{color: functionColor}}>goPlayer</span>{`(person)`}</code>
       <br/>
       <code className={indOnce}>{`};`}</code>
       <br/>
-      <code>{`};`}</code>
+      <code>{`}`}</code>
 
       <br/>
       <br/>
       
-      <code>{`const sheuh =`} <span style={{color: functionColor}}>createPerson</span>{`("Sheuh", "Canada", "University of Waterloo", "Bachelor of Science");`}</code>
+      <code>{`const sheuh =`} <span style={{color: functionColor}}>Person</span>{`("Sheuh", "Canada", "University of Waterloo", "Bachelor of Science");`}</code>
+      <br/>
+      <code>{`sheuh.`}<span style={{color: functionColor}}>hike()</span><span style={{color: commentColor}}>{`; // Sheuh likes to hike.`}</span></code>
+      <br/>
+      <code>{`sheuh.`}<span style={{color: functionColor}}>playGo()</span><span style={{color: commentColor}}>{`; // Sheuh likes to play the board game Go.`}</span></code>
 
     </div>
   );
