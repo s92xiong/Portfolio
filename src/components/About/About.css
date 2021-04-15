@@ -1,10 +1,10 @@
 .about {
   color: #fff;
-  background: #383846;
+  background: #2e2e35;
   padding: 20px;
   border-radius: 5px;
   font-size: 1.1em;
-  line-height: 1.15em;
+  line-height: 1.2em;
   /* offset-x | offset-y | blur-radius | color */
   box-shadow: 5px 5px 10px 5px #3838467e;
 }

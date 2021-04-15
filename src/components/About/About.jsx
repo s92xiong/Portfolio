@@ -6,69 +6,55 @@ function About() {
   const indOnce = "indent-once";
   const indTwice = "indent-twice";
 
-  const commentColor = "#90ee90";
+  const commentColor = "#53e83c";
   const functionColor = "#FFFF00";
+  const varColor = "#8caeff";
 
   return (
     <div className="about">
       
-      <code style={{color: commentColor}}>{`// ABOUT ME:`}</code>
-      <br/>
-      <br/>
-
-      <code>{`const`} <span style={{color: functionColor}}>hiker</span> {`= ({ name }) => ({ `}</code>
-      <br/>
-      <code className={indOnce}>{`hike: () => console.log(name + " likes to hike.")`}</code>
-      <br/>
-      <code>{`});`}</code>
-      
-      <br/>
-      <br/>
-
-      <code>{`const`} <span style={{color: functionColor}}>goPlayer</span> {`= ({ name }) => ({ `}</code>
-      <br/>
-      <code className={indOnce}>{`  playGo: () => console.log(name + " likes to play the board game Go.")`}</code>
-      <br/>
-      <code>{`});`}</code>
-      
+      <code style={{color: commentColor}}>{`// About me:`}</code>
       <br/>
       <br/>
       
-      <code>{`function`} <span style={{color: functionColor}}>Person</span>{`(name, country, school, degree) {`}</code>
+      <code>{`function`} <span style={{color: functionColor}}>Person</span>{`(name, education, interests, skills) {`}</code>
       <br/>
       <code className={indOnce}>{`const person = {`}</code>
       <br/>
       <code className={indTwice}>{`name: name,`}</code>
       <br/>
-      <code className={indTwice}>{`country: country,`}</code>
+      <code className={indTwice}>{`education: education,`}</code>
       <br/>
-      <code className={indTwice}>{`school: school,`}</code>
+      <code className={indTwice}>{`interests: interests,`}</code>
       <br/>
-      <code className={indTwice}>{`degree: degree,`}</code>
-      <br/>
-      <code className={indOnce}>{`};`}</code>
-      <br/>
-      <br/>
-      <code className={indOnce}>{`return {`}</code>
-      <br/>
-      <code className={indTwice}>{`...person,`}</code>
-      <br/>
-      <code className={indTwice}>{`...`}<span style={{color: functionColor}}>hiker</span>{`(person),`}</code>
-      <br/>
-      <code className={indTwice}>{`...`}<span style={{color: functionColor}}>goPlayer</span>{`(person)`}</code>
+      <code className={indTwice}>{`skills: skills`}</code>
       <br/>
       <code className={indOnce}>{`};`}</code>
+      <br/>
+      <br/>
+      <code className={indOnce}>{`return { ...person };`}</code>
       <br/>
       <code>{`}`}</code>
 
       <br/>
       <br/>
+
+      <code>{`const`} <span style={{color: varColor}}>education</span>{` = {`}</code>
+      <br/>
+      <code className={indOnce}>{`school: "University of Waterloo",`}</code>
+      <br/>
+      <code className={indOnce}>{`degree: "Bachelor of Science - Kinesiology"`}</code>
+      <br/>
+      <code>{`};`}</code>
       
-      <code>{`const sheuh =`} <span style={{color: functionColor}}>Person</span>{`("Sheuh", "Canada", "University of Waterloo", "Bachelor of Science");`}</code>
       <br/>
-      <code>{`sheuh.`}<span style={{color: functionColor}}>hike()</span><span style={{color: commentColor}}>{`; // Sheuh likes to hike.`}</span></code>
       <br/>
-      <code>{`sheuh.`}<span style={{color: functionColor}}>playGo()</span><span style={{color: commentColor}}>{`; // Sheuh likes to play the board game Go.`}</span></code>
+
+      <code>{`const`} <span style={{color: varColor}}>interests</span>{` = ["Go/Baduk", "Backpacking", "Jiu-Jitsu", "Cooking"];`}</code>
+      <br/><br/>
+      <code>{`const`} <span style={{color: varColor}}>skills</span>{` = ["HTML/CSS", "Javascript", "React", "Firebase"];`}</code>
+      <br/><br/>
+      <code>{`const`} <span style={{color:varColor}}>sheuh</span> {` = `} <span style={{color: functionColor}}>Person</span>{`("Sheuh Xiong",`} <span style={{color: varColor}}>education</span>, <span style={{color: varColor}}>interests</span>, <span style={{color: varColor}}>skills</span>);</code>
 
     </div>
   );
