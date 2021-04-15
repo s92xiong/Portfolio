@@ -8,7 +8,7 @@ function About() {
 
   const commentColor = "#53e83c";
   const functionColor = "#FFFF00";
-  const varColor = "#8caeff";
+  const varColor = "#00d5ff";
 
   return (
     <div className="about">
