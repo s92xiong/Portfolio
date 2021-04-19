@@ -45,9 +45,10 @@ body {
 }
 
 .intro p {
-  font-size: 1.1rem;
-  line-height: 2rem;
+  font-size: 1.05em;
+  line-height: 1.7rem;
   font-weight: 300;
+  margin: 1em 0 1em 0;
 }
 
 /* --- Projects Header Container --- */
