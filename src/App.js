@@ -1,5 +1,3 @@
-// eslint-disable-next-line no-unused-vars
-import About from './components/About/About';
 import Intro from './components/Intro/Intro';
 import Navbar from './components/Navbar/Navbar';
 import Title from './components/Title/Title';
@@ -16,8 +14,6 @@ function App() {
       <Title />
       
       <Intro />
-      
-      {/* <About /> */}
       
       <div id="projects" className="section-header projects-header-container">
         <h2>Projects</h2>

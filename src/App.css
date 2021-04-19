@@ -37,20 +37,6 @@ body {
   color: #747fe0;
 }
 
-/* --- Intro --- */
-
-.intro {
-  color: #5a5d7a;
-  margin: 0 0 40px 0;
-}
-
-.intro p {
-  font-size: 1.05em;
-  line-height: 1.7rem;
-  font-weight: 300;
-  margin: 1em 0 1em 0;
-}
-
 /* --- Projects Header Container --- */
 
 .section-header {
