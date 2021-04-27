@@ -8,7 +8,7 @@
 /* --- Card --- */
 
 .card-overflow-container {
-  width: 90%;
+  width: 100%;
   height: 380px;
   margin: 0 auto;
   margin-bottom: 60px;
@@ -32,7 +32,7 @@
 
 /* First .card */
 .card-0-bg {
-  background-image: url("../../images/card-0.1-bg.jpg");
+  background-image: url("../../images/card-0-bg.jpg");
   background-position: center;
 }
 
@@ -44,11 +44,17 @@
 
 /* Third .card */
 .card-2-bg {
-  background-image: linear-gradient(#7d7dffbd, #ebdede);
+  background-image: url("../../images/card-2-bg.jpeg");
   background-position: center;
 }
 
-.dark-bg-0, .dark-bg-1, .dark-bg-2 {
+/* Fourth .card */
+.card-3-bg {
+  background-image: url("../../images/card-3-bg.jpg");
+  background-position: center;
+}
+
+.dark-bg-0, .dark-bg-1, .dark-bg-2, .dark-bg-3 {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0); /* Element transparent if no hover */
@@ -59,7 +65,7 @@
   justify-content: center;
 }
 
-.dark-bg-0:hover, .dark-bg-1:hover, .dark-bg-2:hover {
+.dark-bg-0:hover, .dark-bg-1:hover, .dark-bg-2:hover, .dark-bg-3:hover {
   background-color: rgba(0, 0, 0, 0.65);
   transform: scale(1.1); /* Prevent the child from shrinking on hover */
 }
