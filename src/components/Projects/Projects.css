@@ -27,7 +27,7 @@
 
 .card:hover {
   transform: scale(1); /* Set bg-img to normal size when hover */
-  opacity: 0.9;
+  /* opacity: 0.9; */
 }
 
 /* First .card */
@@ -39,7 +39,7 @@
 /* Second .card */
 .card-1-bg {
   background-image: url("../../images/card-1-bg.jpg");
-  background-position: bottom;
+  background-position: top;
 }
 
 /* Third .card */
@@ -66,7 +66,7 @@
 }
 
 .dark-bg-0:hover, .dark-bg-1:hover, .dark-bg-2:hover, .dark-bg-3:hover {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.25);
   transform: scale(1.1); /* Prevent the child from shrinking on hover */
 }
 

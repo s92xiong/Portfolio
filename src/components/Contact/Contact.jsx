@@ -14,7 +14,7 @@ function Contact() {
         <p><b>Find me on:</b></p>
         <a href="https://github.com/s92xiong" target="blank">GitHub</a>
         <br/>
-        <a href="/" target="blank">Resume</a>
+        <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-3548a.appspot.com/o/sheuh_xiong_resume.pdf?alt=media&token=9a1553d7-e767-4134-8368-76d43d6ed57c" target="blank">Resume</a>
       </section>
       
       <section className="section section-made-by-user">
