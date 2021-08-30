@@ -32,25 +32,25 @@
 
 /* First .card */
 .card-0-bg {
-  background-image: url("../../images/card-0-bg.jpg");
-  background-position: center;
+  background-image: url("../../images/morioh.jpeg");
+  background-position: bottom;
 }
 
 /* Second .card */
 .card-1-bg {
-  background-image: url("../../images/card-1-bg.jpg");
+  background-image: url("../../images/find-la-cloche.jpg");
   background-position: top;
 }
 
 /* Third .card */
-.card-2-bg {
-  background-image: url("../../images/card-2-bg.jpeg");
+/* .card-2-bg {
+  background-image: url("../../images/blog.jpeg");
   background-position: center;
-}
+} */
 
 /* Fourth .card */
 .card-3-bg {
-  background-image: url("../../images/card-3-bg.jpg");
+  background-image: url("../../images/weather.jpg");
   background-position: center;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .dark-bg-0:hover, .dark-bg-1:hover, .dark-bg-2:hover, .dark-bg-3:hover {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.6);
   transform: scale(1.1); /* Prevent the child from shrinking on hover */
 }
 
