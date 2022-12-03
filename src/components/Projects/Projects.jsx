@@ -18,7 +18,7 @@ function Projects() {
       description: "An exclusive clubhouse for JoJo members to write anonymous posts",
       href: {
         viewCode: "https://github.com/s92xiong/jojo-club",
-        livePreview: "https://jojo-club.onrender.com//"
+        livePreview: "https://jojo-club.onrender.com/"
       }
     },
     findLaCloche: {
